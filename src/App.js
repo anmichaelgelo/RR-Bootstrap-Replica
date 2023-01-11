@@ -1,10 +1,13 @@
+import TopBar from './components/TopBar'
+import Hero from './components/Hero'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <TopBar />
+      <Hero />
+    </>
   );
 }
 
